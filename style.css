@@ -1,0 +1,129 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 50px;
+  text-align: center;
+}
+
+#site-title {
+  font-size: 2.5em;
+}
+
+header {
+  background-image: url(./images/mcdonalds.png);
+  background-position: center;
+  background-size: contain;
+  height: 613px;
+}
+
+.brand {
+  height: auto;
+  width: 63px !important;
+}
+
+.bg-dark {
+  background-color: #00ff80 !important;
+  opacity: 0.75;
+}
+
+.nav-link {
+  background-color: #00ff80 !important;
+  color: #ffffff !important;
+  font-family: Roboto !important;
+  font-size: 2.5em !important;
+  font-weight: 700 !important;
+  text-align: center;
+}
+
+a.nav-link:hover {
+  background-color: #00cc60 !important;
+  cursor: pointer !important;
+}
+
+#wrapper {
+  width: 90%;
+}
+
+footer {
+  background-color: #505050;
+  width: 90%;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: center;
+}
+
+#title {
+  background-color: #00ff80;
+  color: white;
+  font-size: 2.5em;
+  font-weight: 700;
+  height: 67px;
+  text-align: center;
+}
+
+#dropdown .nav-link {
+  background-color: rgba(00, 255, 128, 0.75) !important;
+}
+
+article {
+  background-color: rgba(255, 255, 255, 0.75);
+  box-sizing: border-box;
+  width: 60%;
+  padding: 25px;
+  min-height: 853px;
+}
+
+sidebar {
+  background-color: rgba(136, 0, 0, 0.75);
+  width: 39%;
+  min-height: 427.5px;
+}
+
+article,
+sidebar {
+  float: left;
+}
+
+main {
+  background-image: url(./images/wheat.jpg);
+  background-size: auto 451.5px;
+  background-repeat: repeat;
+}
+
+@media only screen and (max-width: 1000px) {
+  #title {
+    font-size: 1.5em;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #site-title {
+    font-size: 1em;
+  }
+
+  .brand {
+    height: auto !important;
+    width: 40px !important;
+  }
+
+  .nav-link {
+    font-size: 1.5em !important;
+  }
+  header {
+    display: none;
+  }
+  article,
+  sidebar {
+    width: 100%;
+  }
+}
+
+.nav-link:hover {
+  background-color: #00cc60 !important;
+}
