@@ -84,11 +84,6 @@ sidebar {
   min-height: 427.5px;
 }
 
-article,
-sidebar {
-  float: left;
-}
-
 main {
   background-image: url(./images/wheat.jpg);
   background-size: auto 451.5px;
@@ -115,12 +110,9 @@ main {
   .nav-link {
     font-size: 1.5em !important;
   }
+
   header {
     display: none;
-  }
-  article,
-  sidebar {
-    width: 100%;
   }
 }
 
